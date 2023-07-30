@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-color: rgb(116, 24, 44);
+    color: rgb(48, 43, 43);
+    }
+
+    head{
+        background-image: Logo nova.png;
+        
+    }
+    .navbar{
+    background-color: rgb(119, 30, 30);
+    color: rgb(15, 15, 15);
+    padding: 20px;
+    
+    }
+    li{
+    display: inline-block;
+    padding-right: 3vw;
+    }
+    a{
+    color: rgb(209, 207, 201);
+    }
+
+    imag{
+        background-image: url(Logo nova.png); 
+        background-color: brown;
+        margin: auto;
+        
+    }
+    .banner{
+        height: 600px;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-image: url(Logo\ nova.png);
+        }
+        .content{
+        padding: 50px;
+        }
+        h1{  
+            text-align: center;
+            font-size: 35px;
+            
+
+
+
+        }
+
+       
+        .galeria{
+        padding: 50px;
+        font-family: 'Lucida Sans Unicode';
+        }
+        .galeria im 1{
+        height: 250px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        }
+        .galeria {im 1: 50px;
+            height: 250px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            }
+        .galeria im 1 { 50px;
+                height: 250px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 20px;
+                }
+
+        .footer{
+        background-color: rgb(119, 30, 30);
+        color: rgb(240, 230, 240);
+        text-align: center;
+                padding: 1rem;
+        }
+        @media (max-width: 800px) {
+            .navbar{
+            text-align: center;
+            }
+            body{
+                font-size: 15px;
+                }
+                .content{
+                font-size: 15px;
+                padding: 10px;
+                }
+                .galeria{
+                padding: 10px;
+                }
+                .galeria img{
+                width: 100%;
+                height: auto;
+                }
+                .banner{
+                background-image: url(Logo nova.png);
+            }
+                .footer{
+                background-color: rgb(66, 8, 8);
+                }
+                }
